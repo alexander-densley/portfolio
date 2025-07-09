@@ -63,28 +63,6 @@ export default function Page() {
 									</Tooltip>
 								</TooltipProvider>
 							) : null}
-							{RESUME_DATA.contact.tel ? (
-								<TooltipProvider key='phone' delayDuration={100}>
-									<Tooltip>
-										<TooltipTrigger>
-											<Button
-												className='size-8'
-												variant='outline'
-												size='icon'
-												asChild
-											>
-												<a
-													href={`tel:${RESUME_DATA.contact.tel}`}
-													target='_blank'
-												>
-													<PhoneIcon className='size-4' />
-												</a>
-											</Button>
-										</TooltipTrigger>
-										<TooltipContent className='text-xs'>Phone</TooltipContent>
-									</Tooltip>
-								</TooltipProvider>
-							) : null}
 							{RESUME_DATA.contact.booking ? (
 								<TooltipProvider key='booking link' delayDuration={100}>
 									<Tooltip>
@@ -133,11 +111,6 @@ export default function Page() {
 							{RESUME_DATA.contact.email ? (
 								<a href={`mailto:${RESUME_DATA.contact.email}`} target='_blank'>
 									<span className='underline'>{RESUME_DATA.contact.email}</span>
-								</a>
-							) : null}
-							{RESUME_DATA.contact.tel ? (
-								<a href={`tel:${RESUME_DATA.contact.tel}`} target='_blank'>
-									<span className='underline'>{RESUME_DATA.contact.tel}</span>
 								</a>
 							) : null}
 						</div>
