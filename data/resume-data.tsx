@@ -11,7 +11,6 @@ export const RESUME_DATA = {
 	personalWebsiteUrl: 'https://alxnder.co',
 	contact: {
 		email: 'densley.alexander@gmail.com',
-		tel: '+15033969929',
 		booking: 'https://cal.alxnder.co/chat',
 		social: [
 			{
