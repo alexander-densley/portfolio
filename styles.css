@@ -1,0 +1,18 @@
+body {
+	max-width: 650px;
+	margin: 40px auto;
+	padding: 0 10px;
+	color: #444;
+	font: 18px system-ui, sans-serif;
+	line-height: 1.6;
+}
+
+h1,
+h2 {
+	color: #222;
+	line-height: 1.2;
+}
+
+a:hover {
+	text-decoration: none;
+}
